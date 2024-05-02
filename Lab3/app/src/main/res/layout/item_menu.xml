@@ -1,0 +1,7 @@
+<!-- item_menu.xml -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuItemTextView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Real Madrid"
+    android:textSize="18sp" />
