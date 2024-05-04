@@ -2,5 +2,5 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="green">#99FF33</color>
+    <color name="holo_purple">#AA66CC</color>
 </resources>

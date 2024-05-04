@@ -25,7 +25,7 @@
                 android:text="CALLMED"
                 android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="26dp"
+                android:textSize="26sp"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -47,6 +47,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="32dp"
                 android:text="Press"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/holo_purple"
                 app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
 
         </LinearLayout>
