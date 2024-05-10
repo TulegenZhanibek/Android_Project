@@ -15,7 +15,7 @@
             container: ViewGroup?,
             savedInstanceState: Bundle?
         ): View? {
-            val view = inflater.inflate(R.layout.fragment_login, container, false)
+            val view = inflater.inflate(R.layout.fragment_sign_in, container, false)
             val nextButton: Button = view.findViewById(R.id.next_menu)
             nextButton.setOnClickListener {
                 val fragment = MenuFragment()

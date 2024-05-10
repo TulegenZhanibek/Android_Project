@@ -20,14 +20,6 @@ class MenuFragment : Fragment() {
     ): View? {
         val view = inflater.inflate(R.layout.fragment_menu, container, false)
 
-        // navigation of explorer
-        val nextExplorerLinearLayout: LinearLayout = view.findViewById(R.id.next_explorer)
-        nextExplorerLinearLayout.setOnClickListener {
-            val fragment = CartFragment()
-            val transaction = fragmentManager?.beginTransaction()
-            transaction?.replace(R.id.fragment_view, fragment)?.commit()
-        }
-
         // navigation of card
         val nextCartLinearLayout: LinearLayout = view.findViewById(R.id.next_cart)
         nextCartLinearLayout.setOnClickListener {
@@ -51,6 +43,12 @@ class MenuFragment : Fragment() {
             transaction?.replace(R.id.fragment_view, fragment)?.commit()
         }
         // navigation of profile
+        val nextProfileLinearLayout: LinearLayout = view.findViewById(R.id.next_profile)
+        nextProfileLinearLayout.setOnClickListener {
+            val fragment = CartFragment()
+            val transaction = fragmentManager?.beginTransaction()
+            transaction?.replace(R.id.fragment_view, fragment)?.commit()
+        }
 
 
         //Adapter
