@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.umesh.hobiapplication.ui.auth.LoginFragment"
+        android:name="com.example.lab3.fragment.LoginFragment"
         android:label="LoginFragment" >
         <action
             android:id="@+id/action_loginFragment_to_menuFragment"

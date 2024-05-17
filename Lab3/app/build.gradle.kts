@@ -8,6 +8,7 @@ plugins {
     id("kotlin-kapt")
     id("kotlin-parcelize")
     id("androidx.navigation.safeargs.kotlin")
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -52,6 +53,14 @@ android {
 }
 
 dependencies {
+    // Preferences DataStore
+    implementation("androidx.datastore:datastore-core-android:1.1.1")
+    implementation("androidx.datastore:datastore-preferences-core-jvm:1.1.1")
+    implementation("androidx.datastore:datastore-preferences:1.0.0-alpha06")
+    implementation("androidx.datastore:datastore-preferences-rxjava3:1.0.0-alpha06")
+    implementation("androidx.compose.ui:ui-util-android:1.6.7")
+    implementation("androidx.navigation:navigation-compose:2.7.7")
+    implementation("com.google.firebase:firebase-database:21.0.0")
     val navVersion = "2.7.7"
     val roomVersion = "2.6.1"
     // Room
@@ -64,6 +73,9 @@ dependencies {
 
     // Dagger Hilt
     implementation("com.google.dagger:hilt-android:2.48.1")
+    implementation("androidx.hilt:hilt-navigation-compose:1.1.0-alpha01")
+    implementation("androidx.hilt:hilt-lifecycle-viewmodel:1.0.0-alpha03")
+    implementation("androidx.hilt:hilt-navigation-compose:1.0.0")
     ksp("com.google.dagger:hilt-compiler:2.48.1")
 
     // Lifecycle
@@ -107,6 +119,9 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
     implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+
+    //ViewModel
+
 }
 
 kapt {

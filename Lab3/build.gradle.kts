@@ -5,8 +5,8 @@ buildscript {
         mavenCentral()
     }
     dependencies {
-        classpath("com.google.dagger:hilt-android-gradle-plugin:2.40.1")
-        classpath("com.google.gms:google-services:4.3.13")
+        classpath("com.google.dagger:hilt-android-gradle-plugin:2.48.1")
+        classpath("com.google.gms:google-services:4.4.1")
         classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
 
         val nav_version = "2.5.0"
