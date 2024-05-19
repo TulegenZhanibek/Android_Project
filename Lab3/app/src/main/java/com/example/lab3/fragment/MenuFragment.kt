@@ -60,14 +60,14 @@ class MenuFragment : Fragment() {
 
         // Navigation of my order
         binding.nextMyOrder.setOnClickListener {
-            val fragment = WishlistFragment()
+            val fragment = MyOrderFragment()
             val transaction = fragmentManager?.beginTransaction()
             transaction?.replace(R.id.fragment_view, fragment)?.commit()
         }
 
         // Navigation of profile
         binding.nextProfile.setOnClickListener {
-            val fragment = CartFragment()
+            val fragment = ProfileFragment()
             val transaction = fragmentManager?.beginTransaction()
             transaction?.replace(R.id.fragment_view, fragment)?.commit()
         }

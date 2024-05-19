@@ -3,6 +3,7 @@
   <component name="deploymentTargetDropDown">
     <value>
       <entry key="app">
+<<<<<<< HEAD
         <State>
           <targetsSelectedWithDialog>
             <Target>
@@ -16,6 +17,9 @@
             </Target>
           </targetsSelectedWithDialog>
         </State>
+=======
+        <State />
+>>>>>>> 42013d989bc91d8ba3204ef819ba9c9b9fd79fc3
       </entry>
     </value>
   </component>
